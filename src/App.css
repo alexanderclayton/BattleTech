@@ -1,0 +1,132 @@
+:root {
+  --black: rgb(40, 38, 38);
+  --white: white;
+  --blue: rgb(54, 54, 254);
+}
+
+body {
+  background-color: var(--black);
+  width: 100%;
+}
+
+.bios {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.taylan-about {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  width: 40rem;
+}
+
+.taylan-image {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.taylan-name {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  color: var(--white)
+}
+
+.taylan-bio {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  color: var(--blue)
+}
+
+.alex-about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 40rem;
+}
+
+.alex-image {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.alex-name {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  color: var(--white);
+}
+
+.alex-bio {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  color: var(--blue)
+}
+
+.mech-class-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.light-mech-card {
+  border: 1px solid white;
+}
+
+.light-mech-card:hover {
+  cursor: pointer;
+}
+
+.medium-mech-card {
+  border: 1px solid white;
+}
+
+.medium-mech-card:hover {
+  cursor: pointer;
+}
+
+.heavy-mech-card {
+  border: 1px solid white;
+}
+
+.heavy-mech-card:hover {
+  cursor: pointer;
+}
+
+.assault-mech-card {
+  border: 1px solid white;
+}
+
+.assault-mech-card:hover {
+  cursor: pointer;
+}
+
+.mech-card {
+  border: 1px solid white;
+}
+
+.mech-card:hover {
+  cursor: pointer;
+}
+
+.background-image {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
