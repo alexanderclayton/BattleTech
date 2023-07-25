@@ -40,7 +40,7 @@ export const MechsData: Mech[] = [
         class: "Assault",
         image: Atlas,
         weapons: 2,
-        pilots: ["Adam Steiner"]
+        pilots: ["Adam Steiner", "Others"]
     },
     {
         id: "Battlemaster",
