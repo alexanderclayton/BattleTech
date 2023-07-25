@@ -1,13 +1,15 @@
 import React from 'react'
 import MechCard from '../components/MechCard'
-import { MediumMechData } from '../helpers/mediumMechs'
+import { MechsData } from '../helpers/mechspecs'
 
 function MediumMechs() {
+  const MediumMechsData = MechsData.filter(item => item.class === "Medium")
+
   return (
     <div>
         <h2>Medium Mechs</h2>
         <div>
-            {MediumMechData.map((mech) => {
+            {MediumMechsData.map((mech) => {
                 return (
                     <MechCard image={mech.image} name={mech.name} id={mech.id} />
                 )
