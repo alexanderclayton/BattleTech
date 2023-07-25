@@ -1,8 +1,10 @@
 import React from 'react'
 import MechCard from '../components/MechCard'
-import { AssaultMechsData } from '../helpers/assaultMechs'
+import { MechsData } from '../helpers/mechspecs'
 
 function AssaultMechs() {
+  const AssaultMechsData = MechsData.filter(item => item.class === "Assault")
+
   return (
     <div>
         <h2>Assault Mechs</h2>
