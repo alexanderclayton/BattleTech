@@ -8,7 +8,7 @@ function LightMechs() {
   return (
     <div>
         <h2>Light Mechs</h2>
-        <div>
+        <div className="mech-card-list">
             {LightMechsData.map((mech) => {
                 return (
                     <MechCard image={mech.image} name={mech.name} id={mech.id} />
