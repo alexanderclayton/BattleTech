@@ -115,6 +115,8 @@ body {
 
 .mech-card {
   border: 1px solid white;
+  margin: 2rem;
+  width: 15rem;
 }
 
 .mech-card:hover {
@@ -129,4 +131,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.mech-card-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
